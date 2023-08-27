@@ -1,0 +1,238 @@
+1- HTML Google  and Stack Overflow Exercises :
+
+Exercise 1: Exploring HTML Basics
+
+https://clearlydecoded.com/basic-html-document-structure
+
+* Each HTML document should start with the simple doctype declaration
+* Leaving out the doctype declaration causes the browser to treat the
+HTML code in quirks mode, which breaks standard behavior.
+
+* The <html> tag is the root of the document that contains all other tags
+* The <head> tag contains the metadata about the document
+* The only required metadata element is the title element.
+* The <body> tag (or viewport) is the root of all content visible to the user.
+
+https://stackoverflow.com/search?q=basic+HTML+structure
+
+
+
+
+Exercise 2: Mastering HTML Elements
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+<base>: Specifies the base URL to use for all relative URLs in a document. There can be only one such element in a document.
+<head>: Contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+<link>: Specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
+
+https://stackoverflow.com/questions/71421413/usage-of-semantic-html-tags-in-regards-to-lists-overview
+
+
+Exercise 3: HTML Forms and Validation 
+
+https://www.w3schools.com/html/html_forms.asp
+
+example of a simple HTML form :
+<form>
+.
+form elements
+.
+</form>
+
+https://stackoverflow.com/questions/1622952/simple-way-to-prevent-flood-of-login-requests/1623046#1623046
+
+
+
+Exercise 4: HTML Accessibility and Semantics
+
+https://www.w3schools.com/html/html_accessibility.asp
+
+Examples of semantic elements: 
+<form>, <table>, and <article> - Clearly defines its content.
+
+https://stackoverflow.com/questions/2906582/how-do-i-create-an-html-button-that-acts-like-a-link
+Exercise 5: Handling HTML Tables
+
+https://www.w3schools.com/html/html_tables.asp
+
+Example of a simple HTML table:
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+https://stackoverflow.com/questions/32790159/how-to-use-dreamweaver-with-a-dynamic-site-or-cms/34344956#34344956
+
+
+
+
+
+2- CSS Google  and Stack Overflow Exercises :
+Exercise 1: CSS Fundamentals 
+
+https://www.w3schools.com/css/css_selectors.asp
+
+Examples of three different CSS selectors:
+1. The CSS element Selector
+p {
+  text-align: center;
+  color: red;
+}
+
+2. The CSS id Selector
+#para1 {
+  text-align: center;
+  color: red;
+}
+3. The CSS class Selector
+.center {
+  text-align: center;
+  color: red;
+}
+https://stackoverflow.com/questions/2717480/css-selector-for-first-element-with-class
+
+
+
+
+
+Exercise 2: Box Model and Layouts
+
+https://www.w3schools.com/css/css_boxmodel.asp
+
+In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.
+Important: When you set the width and height properties of an element with CSS, you just set the width and height of the content area. To calculate the full size of an element, you must also add padding, borders and margins.
+
+https://stackoverflow.com/questions/485827/css-100-height-with-padding-margin
+
+
+Exercise 3: Flexbox Mastery
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+
+https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items
+
+Exercise 4: Responsive Web Design
+
+https://www.toptal.com/responsive-web/introduction-to-responsive-web-design-pseudo-elements-media-queries
+Responsive web design, or RWD, is a design approach that addresses the range of devices and device sizes, enabling automatic adaption to the screen, whether the content is viewed on a tablet, phone, television, or watch.
+https://stackoverflow.com/questions/40833381/web-design-practices-to-best-handle-various-devices
+Exercise 5: CSS Animations and Transitions 
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
+
+Simple example: This example performs a four-second font size transition with a two-second delay between the time the user mouses over the element and the beginning of the animation effect:
+#delay {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+
+#delay:hover {
+  font-size: 36px;
+}
+
+https://stackoverflow.com/questions/20586143/css-animation-vs-transition
+
+
+4. JavaScript Google  and Stack Overflow Exercises :
+
+Exercise 1: JavaScript Basics
+
+https://www.electroniclinic.com/javascript-variables-and-data-types-number-string-boolean-null/
+
+Three JavaScript data types: 1. Number 2. String 3. Boolen
+
+https://stackoverflow.com/questions/1288594/what-are-javascript-data-types
+
+Exercise 2: Functions and Control Flow
+
+https://medium.com/@rianna.cleary/control-flow-in-javascript-9c63d0c98bb9
+Example of a function : 
+const hungryFor = ['pizza', 'sushi', 'french fries']
+function printGenres(arr) {
+ for (let i = 0; i < edm.length; i++) {
+  console.log(edm[i])
+ }
+}function printFoods(arr) {
+ for (let i = 0; i < hungryFor.length; i++) {
+  console.log(hungryFor[i])
+ }
+}printFoods(hungryFor)
+printGenres(edm)// 'pizza'
+// 'sushi'
+// 'french fries'
+// 'House'
+// 'Dubstep'
+// 'Drum and Bass'
+
+The if statement is used when we want a block of code to be run as long as the condition it true. Like so:
+if (4 * 4 = 16) {
+ console.log('This will run!')
+}// 'This will run!'
+
+https://stackoverflow.com/questions/111102/how-do-javascript-closures-work/111111#111111
+
+
+
+
+
+
+Exercise 3: Asynchronous Programming
+
+https://levelup.gitconnected.com/understanding-asynchronous-javascript-promises-async-await-and-callbacks-210812db15ae
+
+https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call/14220323#14220323
+
+
+Exercise 4: Handling JavaScript Errors
+
+https://www.syncfusion.com/blogs/post/debugging-10-tips-javascript.aspx
+
+Creating a minimal, isolated version of your code that reproduces the problem helps simplify the troubleshooting process and understand the root cause.
+For instance, if you encounter a bug in a React component, create a standalone sandbox project or CodePen with only the necessary code. This isolation can help identify whether the issue stems from the component or other factors in the more extensive application.
+https://stackoverflow.com/questions/446892/how-to-find-event-listeners-on-a-dom-node-in-javascript-or-in-debugging
+
+
+
+
+Exercise 5: JavaScript DOM Manipulation
+
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
+
+HTML:
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple DOM example</title>
+  </head>
+  <body>
+    <section>
+      <img
+        src="dinosaur.png"
+        alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth." />
+      <p>
+        Here we will add a link to the
+        <a href="https://www.mozilla.org/">Mozilla homepage</a>
+      </p>
+    </section>
+  </body>
+</html>
+The DOM on the other hand looks like this:
+https://stackoverflow.com/questions/494143/creating-a-new-dom-element-from-an-html-string-using-built-in-dom-methods-or-pro
